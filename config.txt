@@ -1,0 +1,231 @@
+set firewall family inet filter allow-ip term allow-113-13-132-103 from source-address 113.13.132.103/32
+set firewall family inet filter allow-ip term allow-113-13-132-103 from destination-port 443
+set firewall family inet filter allow-ip term allow-113-13-132-103 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-118 from source-address 113.13.132.118/32
+set firewall family inet filter allow-ip term allow-113-13-132-118 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-118 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-125 from source-address 113.13.132.125/32
+set firewall family inet filter allow-ip term allow-113-13-132-125 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-125 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-126 from source-address 113.13.132.126/32
+set firewall family inet filter allow-ip term allow-113-13-132-126 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-126 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-134 from source-address 113.13.132.134/32
+set firewall family inet filter allow-ip term allow-113-13-132-134 from destination-port [25 443]
+set firewall family inet filter allow-ip term allow-113-13-132-134 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-125-2 from source-address 113.13.132.125/32
+set firewall family inet filter allow-ip term allow-113-13-132-125-2 from destination-port [25 443]
+set firewall family inet filter allow-ip term allow-113-13-132-125-2 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-201 from source-address 113.13.132.201/32
+set firewall family inet filter allow-ip term allow-113-13-132-201 from destination-port 11100-11131
+set firewall family inet filter allow-ip term allow-113-13-132-201 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-223 from source-address 113.13.132.223/32
+set firewall family inet filter allow-ip term allow-113-13-132-223 from destination-port [25 443]
+set firewall family inet filter allow-ip term allow-113-13-132-223 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-224 from source-address 113.13.132.224/32
+set firewall family inet filter allow-ip term allow-113-13-132-224 from destination-port [25 443]
+set firewall family inet filter allow-ip term allow-113-13-132-224 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-225 from source-address 113.13.132.225/32
+set firewall family inet filter allow-ip term allow-113-13-132-225 from destination-port [25 443]
+set firewall family inet filter allow-ip term allow-113-13-132-225 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-23 from source-address 113.13.132.23/32
+set firewall family inet filter allow-ip term allow-113-13-132-23 from destination-port 443
+set firewall family inet filter allow-ip term allow-113-13-132-23 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-35 from source-address 113.13.132.35/32
+set firewall family inet filter allow-ip term allow-113-13-132-35 from destination-port 53
+set firewall family inet filter allow-ip term allow-113-13-132-35 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-37 from source-address 113.13.132.37/32
+set firewall family inet filter allow-ip term allow-113-13-132-37 from destination-port 53
+set firewall family inet filter allow-ip term allow-113-13-132-37 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-47 from source-address 113.13.132.47/32
+set firewall family inet filter allow-ip term allow-113-13-132-47 from destination-port 443
+set firewall family inet filter allow-ip term allow-113-13-132-47 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-49 from source-address 113.13.132.49/32
+set firewall family inet filter allow-ip term allow-113-13-132-49 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-49 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-56 from source-address 113.13.132.56/32
+set firewall family inet filter allow-ip term allow-113-13-132-56 from destination-port 80
+set firewall family inet filter allow-ip term allow-113-13-132-56 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-57 from source-address 113.13.132.57/32
+set firewall family inet filter allow-ip term allow-113-13-132-57 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-57 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-66 from source-address 113.13.132.66/32
+set firewall family inet filter allow-ip term allow-113-13-132-66 from destination-port [20 21 80]
+set firewall family inet filter allow-ip term allow-113-13-132-66 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-70 from source-address 113.13.132.70/32
+set firewall family inet filter allow-ip term allow-113-13-132-70 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-70 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-71 from source-address 113.13.132.71/32
+set firewall family inet filter allow-ip term allow-113-13-132-71 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-71 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-72 from source-address 113.13.132.72/32
+set firewall family inet filter allow-ip term allow-113-13-132-72 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-132-72 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-73 from source-address 113.13.132.73/32
+set firewall family inet filter allow-ip term allow-113-13-132-73 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-73 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-74 from source-address 113.13.132.74/32
+set firewall family inet filter allow-ip term allow-113-13-132-74 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-74 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-75 from source-address 113.13.132.75/32
+set firewall family inet filter allow-ip term allow-113-13-132-75 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-75 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-76 from source-address 113.13.132.76/32
+set firewall family inet filter allow-ip term allow-113-13-132-76 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-76 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-78 from source-address 113.13.132.78/32
+set firewall family inet filter allow-ip term allow-113-13-132-78 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-78 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-79 from source-address 113.13.132.79/32
+set firewall family inet filter allow-ip term allow-113-13-132-79 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-79 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-81 from source-address 113.13.132.81/32
+set firewall family inet filter allow-ip term allow-113-13-132-81 from destination-port [40111 42111 43111 44111 45111]
+set firewall family inet filter allow-ip term allow-113-13-132-81 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-91 from source-address 113.13.132.91/32
+set firewall family inet filter allow-ip term allow-113-13-132-91 from destination-port [80 463]
+set firewall family inet filter allow-ip term allow-113-13-132-91 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-132-96 from source-address 113.13.132.96/32
+set firewall family inet filter allow-ip term allow-113-13-132-96 from destination-port 443
+set firewall family inet filter allow-ip term allow-113-13-132-96 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-130 from source-address 113.13.133.130/32
+set firewall family inet filter allow-ip term allow-113-13-133-130 from destination-port [80 443 30112 40102 50112]
+set firewall family inet filter allow-ip term allow-113-13-133-130 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-153 from source-address 113.13.133.153/32
+set firewall family inet filter allow-ip term allow-113-13-133-153 from destination-port 443
+set firewall family inet filter allow-ip term allow-113-13-133-153 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-155 from source-address 113.13.133.155/32
+set firewall family inet filter allow-ip term allow-113-13-133-155 from destination-port [443 80]
+set firewall family inet filter allow-ip term allow-113-13-133-155 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-161 from source-address 113.13.133.161/32
+set firewall family inet filter allow-ip term allow-113-13-133-161 from destination-port [80 389]
+set firewall family inet filter allow-ip term allow-113-13-133-161 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-163 from source-address 113.13.133.163/32
+set firewall family inet filter allow-ip term allow-113-13-133-163 from destination-port [30112 40102 50112]
+set firewall family inet filter allow-ip term allow-113-13-133-163 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-252 from source-address 113.13.133.252/32
+set firewall family inet filter allow-ip term allow-113-13-133-252 from destination-port 53
+set firewall family inet filter allow-ip term allow-113-13-133-252 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-62 from source-address 113.13.133.62/32
+set firewall family inet filter allow-ip term allow-113-13-133-62 from destination-port 443
+set firewall family inet filter allow-ip term allow-113-13-133-62 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-68 from source-address 113.13.133.68/32
+set firewall family inet filter allow-ip term allow-113-13-133-68 from destination-port 53
+set firewall family inet filter allow-ip term allow-113-13-133-68 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-133-69 from source-address 113.13.133.69/32
+set firewall family inet filter allow-ip term allow-113-13-133-69 from destination-port 53
+set firewall family inet filter allow-ip term allow-113-13-133-69 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-105 from source-address 113.13.223.105/32
+set firewall family inet filter allow-ip term allow-113-13-223-105 from destination-port [gre esp ah icmp]
+set firewall family inet filter allow-ip term allow-113-13-223-105 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-116 from source-address 113.13.223.116/32
+set firewall family inet filter allow-ip term allow-113-13-223-116 from destination-port [esp icmp]
+set firewall family inet filter allow-ip term allow-113-13-223-116 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-117 from source-address 113.13.223.117/32
+set firewall family inet filter allow-ip term allow-113-13-223-117 from destination-port [esp icmp]
+set firewall family inet filter allow-ip term allow-113-13-223-117 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-118 from source-address 113.13.223.118/32
+set firewall family inet filter allow-ip term allow-113-13-223-118 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-223-118 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-140 from source-address 113.13.223.140/32
+set firewall family inet filter allow-ip term allow-113-13-223-140 from destination-port [3788 4444 5111-5117]
+set firewall family inet filter allow-ip term allow-113-13-223-140 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-141 from source-address 113.13.223.141/32
+set firewall family inet filter allow-ip term allow-113-13-223-141 from destination-port esp
+set firewall family inet filter allow-ip term allow-113-13-223-141 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-164 from source-address 113.13.223.164/32
+set firewall family inet filter allow-ip term allow-113-13-223-164 from destination-port [3788 4444 5111-5117]
+set firewall family inet filter allow-ip term allow-113-13-223-164 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-3 from source-address 113.13.223.3/32
+set firewall family inet filter allow-ip term allow-113-13-223-3 from destination-port [3788 4444 5111-5117]
+set firewall family inet filter allow-ip term allow-113-13-223-3 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-36 from source-address 113.13.223.36/32
+set firewall family inet filter allow-ip term allow-113-13-223-36 from destination-port [3788 4444 5111-5117]
+set firewall family inet filter allow-ip term allow-113-13-223-36 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-37 from source-address 113.13.223.37/32
+set firewall family inet filter allow-ip term allow-113-13-223-37 from destination-port 33777
+set firewall family inet filter allow-ip term allow-113-13-223-37 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-44 from source-address 113.13.223.44/32
+set firewall family inet filter allow-ip term allow-113-13-223-44 from destination-port [3788 4444 5111-5117]
+set firewall family inet filter allow-ip term allow-113-13-223-44 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-52 from source-address 113.13.223.52/32
+set firewall family inet filter allow-ip term allow-113-13-223-52 from destination-port [3788 4444 5111-5117]
+set firewall family inet filter allow-ip term allow-113-13-223-52 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-54 from source-address 113.13.223.54/32
+set firewall family inet filter allow-ip term allow-113-13-223-54 from destination-port 33777
+set firewall family inet filter allow-ip term allow-113-13-223-54 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-6 from source-address 113.13.223.6/32
+set firewall family inet filter allow-ip term allow-113-13-223-6 from destination-port gre
+set firewall family inet filter allow-ip term allow-113-13-223-6 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-84 from source-address 113.13.223.84/32
+set firewall family inet filter allow-ip term allow-113-13-223-84 from destination-port [icmp esp]
+set firewall family inet filter allow-ip term allow-113-13-223-84 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-84-2 from source-address 113.13.223.84/32
+set firewall family inet filter allow-ip term allow-113-13-223-84-2 from destination-port [264 265 9996 981 ssh]
+set firewall family inet filter allow-ip term allow-113-13-223-84-2 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-84-3 from source-address 113.13.223.84/32
+set firewall family inet filter allow-ip term allow-113-13-223-84-3 from destination-port [4500 isakmp 259 2746]
+set firewall family inet filter allow-ip term allow-113-13-223-84-3 then accept
+
+set firewall family inet filter allow-ip term allow-113-13-223-94 from source-address 113.13.223.94/32
+set firewall family inet filter allow-ip term allow-113-13-223-94 from destination-port [80 443]
+set firewall family inet filter allow-ip term allow-113-13-223-94 then accept
+
+set firewall family inet filter allow-ip term default then discard
+
+set interfaces ge-0/0/0 unit 0 family inet filter input allow-ip
